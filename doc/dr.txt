@@ -1,0 +1,34 @@
+ex05
+
+15/20
+
+README :
+nom du cours?
+votre nom?
+
+lib/exo05.dart:
+(-1) bibliothèque (library) ne doit pas être vide
+
+voir https://www.dartlang.org/articles/style-guide/
+for (var a =0;a< texte.length;a++){ --> for (var a =0; a < texte.length; a++) {
+premiere_partie(phrase){ --> premierePartie(phrase) {
+
+s'il vous plaît utiliser le type de retour
+premierePartie(phrase) { --> bool premierePartie(phrase) {
+
+formater le code
+bool premierePartie(phrase) {
+
+(-1) if (soutient.premiere_partie(texte[a])== false){
+-->
+if (!soutient.premiere_partie(texte[a])) {
+
+(-1) print('Le mot le plus long est : $mot_final)');
+-->
+print('Le mot le plus long est : $mot_final');
+
+//partie 4
+(-1) pas une bonne réponse
+
+//partie 5
+(-1) seulement une moitié de l'arbre

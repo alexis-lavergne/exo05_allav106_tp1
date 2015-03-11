@@ -11,7 +11,7 @@ main() {
 //ecrire votre phrase ou texte dans la variable texte ci dessous
 
   texte = 'hello!';
- 
+
   var verdict = ' ';
   for (var a =0;a< texte.length;a++){
   if (soutient.premiere_partie(texte[a])== false){
@@ -20,17 +20,17 @@ main() {
   }
   else {
        verdict =('Le texte contient seulement des lettres et des espacements');
-       
+
       }
   }
   print(verdict);
-  
+
 //partie 2
   // inserez votre liste de phrases dans phrases
   var phrases = ['hola pepito','den','extra'];
   var phrase_finale = soutient.deuxieme_partie(phrases);
   print(' La phrase la plus longue est : $phrase_finale.');
-  
+
 //partie 3
   //inserez votre liste de mot dans la variable mots
   var mots = ['hola','co','de'];
@@ -45,7 +45,7 @@ main() {
   }
 //partie 5
   //inserez la grandeur de l`arbre dans la variable grandeur_arbre
-  var grandeur_arbre = 3;
+  var grandeur_arbre = 5;
   for (var a = 1; a<= grandeur_arbre;a++){
     print(soutient.cinquieme_partie(a));
   }
